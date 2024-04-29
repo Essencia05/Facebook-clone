@@ -25,3 +25,24 @@ select {
 footer {
     display: inline;
 }
+
+.birthday{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.829);
+    
+}
+
+h3 {
+    color: azure;
+}
+
+#post {
+ border-radius: 50px;
+}
+ 
+.post{
+    border-radius: 1px solid black;
+}
+
+.right-column {
+    flex: 1;
+}
