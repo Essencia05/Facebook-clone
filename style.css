@@ -21,3 +21,7 @@ select {
 .profile {
     width: 65px;
 }
+
+footer {
+    display: inline;
+}
