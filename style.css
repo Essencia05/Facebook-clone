@@ -22,9 +22,7 @@ select {
     width: 65px;
 }
 
-footer {
-    display: inline;
-}
+
 
 .birthday{
     border-bottom: 1px solid rgba(0, 0, 0, 0.829);
@@ -45,4 +43,13 @@ h3 {
 
 .right-column {
     flex: 1;
+}
+
+.footer {
+    
+    display: flex;
+    justify-content: space-between;
+    width: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
