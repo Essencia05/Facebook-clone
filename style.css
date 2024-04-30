@@ -25,7 +25,10 @@ select {
 
 
 .birthday{
-    border-bottom: 1px solid rgba(0, 0, 0, 0.829);
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding-top: 20px;
+    padding-bottom: 15px;
     
 }
 
@@ -38,11 +41,20 @@ h3 {
 }
  
 .post{
-    border-radius: 1px solid black;
+    border-radius: 1px solid gray;
 }
 
 .right-column {
     flex: 1;
+}
+
+.shortcut{
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
+
+.list-group{
+    padding-bottom:20px;
 }
 
 .footer {
@@ -53,4 +65,8 @@ h3 {
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 20%;
+}
+
+@media only screen and (min-width: 768px) {
+
 }

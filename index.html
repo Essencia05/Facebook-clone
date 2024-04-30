@@ -27,7 +27,7 @@
       </div>
   
         <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm " type="search" placeholder="Search" aria-label="Search">
+            <input class="form-control mr-sm r-rounded " type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-primary my-2 my-sm-0 " type="submit">Search</button>
         </form>
   
@@ -49,19 +49,35 @@
       <!--Left side bar-->
       <div class="col-3 bg-light">
   
-        <div class="profile">
-          <img src="static/PROFILE.png.png" alt="Profile Icon" width="65px">
-          <p>Essencia Letlape</p>
+        <div class="profile d-flex d-inline bg-light">
+        <img src="static/PROFILE.png.png" alt="Profile Icon" width="50px"> Essencia <p> Letlape</p>
         </div>
           
         <div class="list-group">
             <ul class="list-group ">
-                <li class="list-group-item border-0"><i class="fa-solid fa-user-group"></i>Friends</li>
-                <li class="list-group-item border-0"><i class="fa-solid fa-people-group"></i>Pages</li>
-                <li class="list-group-item border-0"><i class="fa-solid fa-shop"></i>Groups</li>
-                <li class="list-group-item border-0"><i class="fa-solid fa-download"></i>Marketplace</li>
-                <li>Watch</li>
+                <li class="list-group-item "><i class="fa-solid fa-user-group"></i> Friends</li>
+                <li class="list-group-item "><i class="fa-solid fa-flag"></i> Pages</li>
+                <li class="list-group-item "><i class="fa-solid fa-users-between-lines"></i> Groups</li>
+                <li class="list-group-item "><i class="fa-solid fa-shop"></i> Marketplace</li>
+                <li class="list-group-item "><i class="fa-solid fa-camera-retro"></i> Watch</li>
             </ul>
+          <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdown-seemore-button">See More</button>
+
+        </div>
+        <div class="shortcut">
+          <h5> Your Shortcuts</h5>
+             <div class="list-group">
+               <ul class="list-group">
+                 <a href="#"><li class="list-group-item border-0 text-dark"><i class="fa-brands fa-facebook-messenger"></i> Nana Nana</li></a>
+                 <a href="#"><li class="list-group-item border-0 text-dark"><i class="fa-brands fa-facebook-messenger"></i> Online Education</li></a>
+                 <a href="#"><li class="list-group-item border-0 text-dark"><i class="fa-brands fa-facebook-messenger"></i> Food Lover</li></a>
+                 <a href="#"><li class="list-group-item border-0 text-dark"><i class="fa-brands fa-facebook-messenger"></i> Web Development</li></a>
+                 <a href="#"><li class="list-group-item border-0 text-dark"><i class="fa-brands fa-facebook-messenger"></i> PC Shop</li></a>
+                 <a href="#"><li class="list-group-item border-0 text-dark"><i class="fa-brands fa-facebook-messenger"></i> EPF</li></a>
+               </ul>
+               <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdown-seemore-button">See More</button>
+
+             </div>
         </div>
       </div>
   
@@ -82,15 +98,24 @@
      <div class="col-3 bg-light">
       
         <div class="right-column">
+           <div class="pages">
+            <h5>Your Pages and profiles</h5>
+             <ul class="list-group">
+                <li class="list-group-item border-0"><i class="fa-solid fa-laptop-code"></i>  Software Engineer</li>
+                <li class="list-group-item border-0"><i class="fa-regular fa-bell"></i>  20 Notifications</li>
+                <li class="list-group-item border-0">  Create promotion</li>
+                
+              </ul> 
+           </div>
           <div class="birthday"> <!--Birthday Notification-->
-              <h4>Birthday Notification</h4>
-              <p><i class="fa-solid fa-cake-candles"></i>  <strong>Katlego Baloyi</strong> and <strong>3 more</strong> have their birthdays today</p>
+              <h5>Birthdays</h5>
+              <p><i class="fa-solid fa-cake-candles text-primary"></i>  <strong>Katlego Baloyi</strong> and <strong>3 more</strong> have their birthdays today</p>
             </div>
         </div>
   
-        <div class="online-contacts"> <!--Display Contacts-->
-            <div>
-                <h4>Contacts</h4>
+        <div class="online-contacts pt-20"> <!--Display Contacts-->
+            <div class="d-flex space-between bg-light">
+                <h5>Contacts</h5>
                 <a href="#"><i class="fa-solid fa-video"></i></a>
                 <a href="#"><i class="fa-regular fa-magnifying-glass"></i></a>
                 <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
@@ -108,14 +133,16 @@
     </div> 
   </main>
 
-  <footer class="footer bg-primary">
+  <footer class="footer">
     <div class="row d-flex">
       <div class="col-12">
-        <a class="footer-item mr-sm-2">About</a>
-        <a class="footer-item">Terms</a>
-        <a class="footer-item">Cookies</a>
-        <a class="footer-item">More</a>
-        <a class="footer-item">Faccebook @ 2024</a>
+        <a class="footer-item" href="#"></a>
+        <a class="footer-item" ></a>
+        <a class="footer-item" href="#"> About </a>
+        <a class="footer-item" href="#" >| Terms </a>
+        <a class="footer-item" href="#">| Cookies </a>
+        <a class="footer-item" href="#">| More </a>
+        <a class="footer-item" href="#">| Faccebook @ 2024 </a>
       </div>
     </div>
     </footer>
